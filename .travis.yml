@@ -1,5 +1,7 @@
 language: python
-
+arch:
+  - AMD64
+  - ppc64le
 env:
   - TOX_ENV=py27
   - TOX_ENV=py27-configparser
